@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <title>Chrome App</title>
     <script src="quotes.js" defer></script>
     <script src="./background.js" defer></script>
@@ -30,8 +31,7 @@
                             <input type="text" maxlength="15" placeholder="Who are you?">
                             <button>Login</button>
                         </form>
-                    
-                    
+                   
                     <h1 id="greeting" class="hidden"></h1>
                     <form action="" id="todo-form">
                         <p>What is your main focus today?</p>
